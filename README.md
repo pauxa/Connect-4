@@ -19,6 +19,6 @@ rights are reserved by the maintainer.
 
 ## Authors
 
-[pauxa](https://github.com/pauxa)(Maintainer)
+[pauxa](https://github.com/pauxa) (Maintainer)
 
 [Zildj1an](https://github.com/Zildj1an)
