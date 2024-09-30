@@ -4,7 +4,7 @@ This is my version of the classic game Connect 4, in Python.
 
 # Instructions
 
-You need to run the game inside a terminal. Use Python like this:
+Run the game inside a terminal. Use Python like this:
 
 ```python
 
