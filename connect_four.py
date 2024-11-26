@@ -1,3 +1,9 @@
+def won_horiz(array, row_num, col_num, rows, cols):
+    counter = 0 
+    track_col = 0
+
+    while track_col < cols and counter != 4:
+
 # 1. Make the grid
 rows, cols = 6, 7
 array = []
@@ -33,3 +39,9 @@ else:
     array[row_num][col_num] = 'Y'
 
 # 5. Figure out who won
+
+if won_vert(array, row_num, col_num, rows, cols)
+    or won_diag(array, row_num, col_num, rows, cols)
+    or won_horiz(array, row_num, col_num, rows, cols):
+    print("Congrats! You're the winner.")
+
