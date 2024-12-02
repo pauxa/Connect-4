@@ -1,8 +1,20 @@
-def won_horiz(array, row_num, col_num, rows, cols):
+def won_horiz(array, row_num, cols):
     counter = 0 
     track_col = 0
 
+# Figure out how to make it apply to both users
+
     while track_col < cols and counter != 4:
+        if array[row_num][track_col] == 'X':
+            counter = counter + 1
+        else:
+            counter = 0
+        if counter == 4:
+            return True
+        
+        track_col = track_col + 1
+
+    return False
 
 # 1. Make the grid
 rows, cols = 6, 7
@@ -42,6 +54,8 @@ else:
 
 if won_vert(array, row_num, col_num, rows, cols)
     or won_diag(array, row_num, col_num, rows, cols)
-    or won_horiz(array, row_num, col_num, rows, cols):
+    or won_horiz(array, row_num, cols):
     print("Congrats! You're the winner.")
+
+# 6. Print the matrix
 
